@@ -33,7 +33,7 @@
 
 - `git branch -m master main`: Cambia el nombre a la rama de master a main
 
-# Gestion de alias
+# Configuracion de alias
 
 - `git config --global alias.s status --short`: Se ocupa para poder cambiar el git status solo por git s
 - `git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"`: Se ocupa para poder cambiar el git log por git lg y mas especifico
