@@ -19,3 +19,4 @@ Gestión de Repositorios
 • git init: Inicializa un nuevo repositorio de Git.
 • git log: Verifica los cambios realizados, incluyendo autor y fecha.
 • git checkout -- .: Reconstruye el proyecto al estado del último commit.
+• git push origin <Nombre de la rama>: Sirve para cargar los commits que se hicieron al repositorio en Github
