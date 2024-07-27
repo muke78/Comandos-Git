@@ -14,14 +14,20 @@
 # Gestión de Repositorios
 
 - `git status`: Ve el estado del nuevo repositorio, la rama actual, archivos y commits.
-- `git add`: Prepara todos los archivos para hacer un commit.
-- `git reset <nombre_del_archivo>`: Quita los archivos que no se desean incluir en el commit.
-- `git commit -m "Primer commit"`: Sube los cambios, registrando un mensaje descriptivo.
-- `git init`: Crea el repositorio local, y se crea una carpeta .git para que git pueda llevar un rastro de todo lo que hacemos
 - `git log`: Verifica los cambios realizados, incluyendo autor y fecha.
 - `git checkout -- .`: Reconstruye el proyecto al estado del último commit.
+
+# Gestion de Cambios
+
+- `git add`: Prepara todos los archivos para hacer un commit.
+- `git reset <nombre_del_archivo>`: Quita los archivos que no se desean incluir en el commit.
 - `git push origin <Nombre de la rama>`: Sirve para cargar los commits que se hicieron al repositorio en Github.
+- `git commit -m "Primer commit"`: Sube los cambios, registrando un mensaje descriptivo.
+- `git init`: Crea el repositorio local, y se crea una carpeta .git para que git pueda llevar un rastro de todo lo que hacemos
 - `git commit -am "Cambio que se ha hecho"`: Sirve para agregar los archivos mas aparte hacer el commit al mismo tiempo al poner -am
+- `git add *.html/ *.tipo de archivo`: SOlo va a mandar los indices con el tipo de archivo solicitado para subirlo al stage
+-`git add js/*.js`: Agrega todos los archivos con extension sobre el directorio indicado
+-`git restore --staged *js`: Quita los archivos y los vuelve a bajar del stage para no tomar en cuenta esos archivos sobre el directorio indicado y la extension del archivo indicada
 
 # Gestion de ramas
 
