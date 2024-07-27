@@ -9,6 +9,7 @@
 - `git config --global user.email "muke7881@gmail.com"`
 - `git config --global -e`: Muestra la configuración establecida del nombre y correo.
 - `git config --global init.defaultBranch <name>`: Cambia el nombre de la rama por defecto.
+- `git config --global core.autocrlf input`: Para convertir los finales de línea a LF en todos los sistemas operativos
 
 # Gestión de Repositorios
 
@@ -20,3 +21,8 @@
 - `git log`: Verifica los cambios realizados, incluyendo autor y fecha.
 - `git checkout -- .`: Reconstruye el proyecto al estado del último commit.
 - `git push origin <Nombre de la rama>`: Sirve para cargar los commits que se hicieron al repositorio en Github.
+- `git commit -am "Cambio que se ha hecho"`: Sirve para agregar los archivos mas aparte hacer el commit al mismo tiempo al poner -am
+
+# Gestion de ramas
+
+- `git branch -m master main`: Cambia el nombre a la rama de master a main
