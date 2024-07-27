@@ -26,8 +26,8 @@
 - `git init`: Crea el repositorio local, y se crea una carpeta .git para que git pueda llevar un rastro de todo lo que hacemos
 - `git commit -am "Cambio que se ha hecho"`: Sirve para agregar los archivos mas aparte hacer el commit al mismo tiempo al poner -am
 - `git add *.html/ *.tipo de archivo`: SOlo va a mandar los indices con el tipo de archivo solicitado para subirlo al stage
--`git add js/*.js`: Agrega todos los archivos con extension sobre el directorio indicado
--`git restore --staged *js`: Quita los archivos y los vuelve a bajar del stage para no tomar en cuenta esos archivos sobre el directorio indicado y la extension del archivo indicada
+- `git add js/*.js`: Agrega todos los archivos con extension sobre el directorio indicado
+- `git restore --staged *js`: Quita los archivos y los vuelve a bajar del stage para no tomar en cuenta esos archivos sobre el directorio indicado y la extension del archivo indicada
 
 # Gestion de ramas
 
