@@ -1,15 +1,39 @@
 # Comandos Básicos
 
-- `git --version`: Muestra la versión de Git instalada en el sistema.
-- `git help`: Muestra la ayuda para los comandos completos y con alias (--, -).
+- Muestra la versión de Git instalada en el sistema.
+
+```bash
+    git --version
+```
+
+- Muestra la ayuda para los comandos completos y con alias (--, -).
+
+```bash
+    git help
+```
 
 # Configuración Inicial de Git
 
-- `git config --global user.name "Erick Muke"`
-- `git config --global user.email "muke7881@gmail.com"`
-- `git config --global -e`: Muestra la configuración establecida del nombre y correo.
-- `git config --global init.defaultBranch <name>`: Cambia el nombre de la rama por defecto.
-- `git config --global core.autocrlf input`: Para convertir los finales de línea a LF en todos los sistemas operativos
+```bash
+    git config --global user.name "Erick Muke"
+    git config --global user.email "muke7881@gmail.com"
+```
+- Muestra la configuración establecida del nombre y correo los alias que tienes, los cores, y el nombre de la rama por defecto
+
+```bash
+    git config --global -e
+```
+- Cambia el nombre de la rama por defecto.
+
+```bash
+    git config --global init.defaultBranch <name>
+```
+
+- Para convertir los finales de línea a LF en todos los sistemas operativos
+```bash
+    git config --global core.autocrlf input
+```
+
 
 # Gestión de Repositorios
 
