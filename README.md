@@ -37,6 +37,10 @@
     git config --global core.autocrlf input
 ```
 
+```bash
+    git config core.autocrlf true
+```
+
 # Gestión de Repositorios
 
 - Ve el estado del nuevo repositorio, la rama actual, archivos y commits.
