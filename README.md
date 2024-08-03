@@ -4,9 +4,9 @@
 
 # Indices
 
-[Configuracion inicial de git](Configuracion-inicial-git.md)
-[Comandos-basicos](Comandos-basicos.md)
-[Configuracion de alias en git](Configuracion-alias-git.md)
-[Gestion de cambios en git](Gestion-cambios-git.md)
-[Gestion de repositorios en git](Gestion-de-repositorios.md)
-[Gestion de ramas en git](Gestion-ramas-git.md)
+- [Configuracion inicial de git](Configuracion-inicial-git.md)
+- [Comandos-basicos](Comandos-basicos.md)
+- [Configuracion de alias en git](Configuracion-alias-git.md)
+- [Gestion de cambios en git](Gestion-cambios-git.md)
+- [Gestion de repositorios en git](Gestion-de-repositorios.md)
+- [Gestion de ramas en git](Gestion-ramas-git.md)
