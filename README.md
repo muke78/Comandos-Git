@@ -137,6 +137,14 @@
 
 - Sirve para que el ultimo commit que se hizo se pueda resetear y git lo quita del registro para subir los cambios que hicieron falta y se vuelvan a subir (`Esto no se recomienda cuando ya este en github, la mejor practica es un nuevo commit`)
 
+```bash
+    git reset --soft HEAD^[numero de cambios anteriores]
+```
+
+```bash
+    git reset --soft <"Hash de el segundo commit hecho">
+```
+
 # Gestion de ramas
 
 - Cambia el nombre a la rama de master a main
