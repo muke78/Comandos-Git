@@ -125,6 +125,14 @@
     git diff --staged
 ```
 
+- Realiza el cambio del nombre del ultimo commit hecho
+
+```bash
+    git commit --amend -m "<Mensaje nuevo>"
+```
+
+- Sirve para que el ultimo commit que se hizo se pueda resetear y git lo quita del registro para subir los cambios que hicieron falta y se vuelvan a subir (`Esto no se recomienda cuando ya este en github, la mejor practica es un nuevo commit`)
+
 # Gestion de ramas
 
 - Cambia el nombre a la rama de master a main
