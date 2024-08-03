@@ -113,6 +113,18 @@
     git restore --staged *js
 ```
 
+- <span style="color: yellow;">Hace una comparador de cambios de lo que se cambio y lo que habia antes de subirlo al stage (funciona en codigos mas cortos)</span>
+
+```bash
+    git diff
+```
+
+- <span style="color: yellow"> Compara los cambios subidos al staged despues de hacer un `git add .`</span>
+
+```bash
+    git diff --staged
+```
+
 # Gestion de ramas
 
 - Cambia el nombre a la rama de master a main
